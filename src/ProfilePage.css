@@ -15,7 +15,7 @@
 
 .header {
   width: 100%;
-  background-color: #095cb4;
+  background-color: #1362c9;
   color: white;
   text-align: center;
   padding: 10px;
@@ -65,7 +65,7 @@
   align-items: first baseline;
   top: 100px;
   right: 10px;
-  background-color: #095cb4;
+  background-color: #1362c9;
   color: white;
   padding: 40px;
   border-radius: 8px;
@@ -87,7 +87,7 @@
 }
 
 .submit-button {
-  background-color: #095cb4;
+  background-color: #1362c9;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -98,7 +98,7 @@
 }
 
 .submit-button:hover {
-  background-color: #095cb4;
+  background-color: #1362c9;
 }
 .position{
   align-items: left;
