@@ -4,7 +4,7 @@ import ProfilePage from'./ProfilePage';
 function App() {
   return (
     <div className="App">
-     <ProfilePage />
+     <UserProfile />
     </div>
   );
 }
