@@ -1,10 +1,11 @@
-import './App.css';
-import ProfilePage from'./ProfilePage';
+import "./App.css";
+import UserProfile from "./Components/UserProfile/UserProfile";
 
 function App() {
   return (
     <div className="App">
-     <UserProfile />
+      <UserProfile />
+      {/* <ContactForm /> */}
     </div>
   );
 }

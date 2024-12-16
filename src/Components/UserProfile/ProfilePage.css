@@ -1,5 +1,7 @@
 :root{
+  font-family: 'Cairo', sans-serif;
   align-items: center;
+  font-weight: 400px;
 }
 
 .profile-container {
@@ -13,10 +15,20 @@
   padding: 20px;
 }
 
+.logo{
+float: right;
+margin-left: auto;
+cursor: pointer;
+}
+
 .header {
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
-  background-color: #1362c9;
-  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  background-color: white;
   text-align: center;
   padding: 10px;
 }
@@ -62,32 +74,42 @@
 
 .sidebar {
   position: absolute;
-  align-items: first baseline;
-  top: 100px;
-  right: 10px;
-  background-color: #1362c9;
+  align-items: last baseline;
+  top: 160px;
+  right: 50px;
+  background-color: #105faa;
   color: white;
-  padding: 40px;
-  border-radius: 8px;
+  padding: 55px;
+  border-radius: 12px;
 }
 
 .sidebar ul {
   list-style: none;
-  padding: 12px;
-  padding: 0;
+  padding: 8px 4px;
 }
 
 .sidebar li {
-  padding: 10px;
-  align-items: 
-  ;
-  margin: 10px 0;
+  align-items: 8px;
+  margin: 10px 1px 2px;
 }footer {
   margin-top: auto;
 }
 
+
+.footer {
+  background-color: lightgray; 
+  color: white; 
+  text-align: center; 
+  padding: 10px 0;  
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+
 .submit-button {
-  background-color: #1362c9;
+  background-color: #105faa;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -98,7 +120,7 @@
 }
 
 .submit-button:hover {
-  background-color: #1362c9;
+  background-color: #105faa;
 }
 .position{
   align-items: left;
